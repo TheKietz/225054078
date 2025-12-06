@@ -8,7 +8,7 @@ namespace Lab03.Models
     {
         public int Id { get; set; }
         public string? Title { get; set; }
-        [DisplayName = "Release Date"]
+        [DisplayName ("Release Date")]
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         public string? Genre { get; set; }
